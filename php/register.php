@@ -31,11 +31,15 @@
                     <input type="password" class="form-control" id="inputPassword4">
                 </div>
                 <div class="col-md-10 mb-3">
+                    <label for="inputStreet" class="form-label">Country</label>
+                    <input type="text" class="form-control text-center" id="inputAddress">
+                </div>
+                <div class="col-md-10 mb-3">
                     <label for="inputStreet" class="form-label">Street Name</label>
                     <input type="text" class="form-control text-center" id="inputAddress">
                 </div>
                 <div class="col-md-3 mb-3">
-                    <label for="inputNumber" class="form-label">Street Number</label>
+                    <label for="inputNumber" class="form-label">Number</label>
                     <input type="text" class="form-control" id="inputAddress2">
                 </div>
                 <div class="col-md-5 mb-3">
@@ -47,11 +51,14 @@
                     <input type="text" class="form-control" id="inpuState">
                 </div>
                 <div class="col-md-5 mb-3">
-                    <label for="inputZip" class="form-label">Zip</label>
+                    <label for="inputZip" class="form-label">Zip Code</label>
                     <input type="text" class="form-control" id="inputZip">
                 </div>
-                <div class="col-12">
+                <div class="col-12 mb-3">
                     <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+                <div class="col-12">
+                    <a href="index.php" class="btn btn-secondary">Back to Login Page</a>
                 </div>
             </div>
         </form>
